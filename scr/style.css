@@ -1,0 +1,260 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 10%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+
+
+section {
+    background-color: white;
+}
+
+.hero {
+    background-color: #356288;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+    background-color: transparent;
+
+}
+
+.web-head {
+    background-color: #22646e;
+    height: 70px;
+    color: white;
+    font-size: 40px;
+    top: 0; 
+}
+
+
+
+
+.text-link {    
+    color: white;
+    text-decoration:underline;
+
+}
+
+.git-link {    
+    color: #22646e;
+    text-decoration:none;
+
+}
+
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+li {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bolder; 
+}
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+p {
+margin: 0;
+font-size: 30px;
+font-weight: 300;
+margin-left: 30px;
+
+}
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.paper-title {
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bolder; 
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #bfd2d9;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.button:hover {
+    background-color: #22646e;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 40px;
+}
+
+.social:hover svg{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    opacity:0.8;
+}
+
+h2 {
+    font-size: 50px;
+
+}
+
+.reseach {
+    font-size: 30px;
+}
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.pub-image {
+    margin-top: 25px;
+    width: 500px;
+    border-radius: 125px;
+}
+
+
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pub-link {
+    color: #e3ac97;
+    text-decoration: underline dotted;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.pub-card {
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    padding: 20px;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+.sub-section {
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.code-image {
+    margin-top: 25px;
+    width: 400px;
+}
+
+
+.code-card {
+    width: 500px;
+    height: 600px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+.code-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer {
+    height: 150px;
+    background-color: #22646e;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.end-title {
+    margin-top: 5px;
+}
